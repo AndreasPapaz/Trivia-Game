@@ -1,0 +1,117 @@
+body {
+	background-image: url(../images/opm.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Press Start 2P', cursive;
+}
+
+
+
+
+
+.titleBar {
+	background: black;
+	color: white;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+.answer, .questionDiv {
+	background: #f4d442;
+	font-size: 18px;
+	width: 75%;
+	margin-bottom: 2%;
+	padding: 2%;
+	text-align: center;
+	display: inline-block;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.8s ease;
+}
+
+.answer:hover {
+	opacity: 0.8;
+	width: 80%;
+	height: 20%;
+	font-size: 20px;
+	box-shadow: 5px 5px 20px;
+}
+
+.questionDiv {
+	background: #4189f4;
+	width: 75%;
+	padding: 2%;
+	margin-bottom: 2%;
+}
+
+.start-button {
+	margin-right: 450px;
+	margin-left: 450px;
+	margin-top: 30px;
+	font-size: 32px;
+	background: #f4d442;
+	padding: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	-webkit-transition: all 1s ease;
+}
+
+.start-button:hover {
+	font-size: 36px;
+	box-shadow: 5px 5px 20px;
+	padding: 21px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.restart-button {
+	font-size: 26px;
+	background-color: #f4d442;
+	padding: 20px;
+	width: 30%;
+	margin-top: 50px;
+	margin: auto;
+	-webkit-transition: all 1s ease;
+}
+
+.restart-button:hover {
+	font-size: 28px;
+	width: 33%;
+	box-shadow: 3px 3px 20px;
+}
+
+
+.result-screen {
+	background-color: #4189f4;
+	padding: 2%;
+}
+
+.result {
+	margin-bottom: 50px;
+}
+
+.timerArea {
+	background-color: red;
+	padding: 20px;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
